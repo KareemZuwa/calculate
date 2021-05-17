@@ -15,7 +15,7 @@ function handleClick(btn: any): void {
 
     if(text === "=") {
         //runcalc
-        const results:string = calc(equation)
+        const results: any = calc(equation)
         input.value = results; 
     } else if (text === "C") {
         //clear input
